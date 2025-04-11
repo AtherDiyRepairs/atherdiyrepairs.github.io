@@ -6,36 +6,131 @@
     <title>AtherDIYRepair</title>
     <style>
         body {
-            font-family: sans-serif;
-            margin: 20px;
-        }
-        h1 {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .blog-content {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
             line-height: 1.6;
         }
+
+        .container {
+            width: 95%; /* Adjust width for mobile */
+            max-width: 960px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 15px; /* Adjust padding for mobile */
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.1em; /* Adjust font size for mobile */
+            font-style: italic;
+            color: #666;
+        }
+
+        .step {
+            margin-bottom: 25px; /* Adjust margin for mobile */
+            padding: 10px; /* Adjust padding for mobile */
+            border-bottom: 1px solid #eee;
+        }
+
+        .step:last-child {
+            border-bottom: none;
+        }
+
+        .step strong {
+            color: #007bff;
+        }
+
         img {
             max-width: 100%;
             height: auto;
             display: block;
-            margin: 20px auto;
+            margin: 10px auto; /* Adjust margin for mobile */
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         }
+
+        p {
+            margin-bottom: 10px; /* Adjust margin for mobile */
+            font-size: 0.95em; /* Adjust font size for mobile */
+        }
+
+        .blog-content {
+            padding: 5px; /* Adjust padding for mobile */
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 600px) {
+            .container {
+                width: 98%; /* Further adjust width for very small screens */
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 1.5em; /* Smaller title for mobile */
+            }
+
+            h2 {
+                font-size: 1em;
+            }
+
+            p {
+                font-size: 0.9em;
+            }
+        }
+         .side-by-side {display: flex; justify-content: space-around; align-items: center;}
+        .side-by-side img {max-width: 48%; height: auto;}
     </style>
 </head>
 <body>
-    <h1>AtherDIYRepair</h1>
-    <h2 style="text-align: center; font-size: 1.2em; font-style: italic; margin-bottom: 20px;">Repairing Ather Charging flap- DIY</h2>
-    <div class="blog-content">
-        <p>Things Required to repair the charging flap : Scrwedriver,WD-40 spray </p>
-        <p></p>
+    <div class="container">
+        <h1>AtherDIYRepair</h1>
+        <h2>Ather Charging Flap Repair</h2>
+        <img src="https://github.com/AtherDiyRepairs/atherdiyrepairs.github.io/blob/main/docs/assets/img/1.png">
+        <div class="blog-content">
+            <p><strong>Items Required:</strong> Any screwdriver and WD-40</p>
 
-        <img src="https://source.unsplash.com/random/800x400/?electricscooter" alt="Random Electric Scooter Image">
+            <div class="step">
+                <p><strong>Step 1:</strong> Start by opening the floor board as the plastic panel covering the charging flap is under the floor board. There are 8 screws to unscrew, and then gently remove the floor board.</p>
+                <img src="https://github.com/AtherDiyRepairs/atherdiyrepairs.github.io/blob/main/docs/assets/img/2.png">
+            </div>
 
-        <p>This is just the beginning! We'll be regularly updating this blog with more detailed guides, step-by-step instructions, and video tutorials. Stay tuned for updates and feel free to leave comments or questions below. We're here to help you get the most out of your Ather.</p>
-        <p>Happy repairing!</p>
+            <div class="step">
+                <p><strong>Step 2:</strong> Then we will have to remove the front inside panel (above the floor panel). There are 12 screws to unscrew, and also remove the keyhole cover.
+                    <img src="https://github.com/AtherDiyRepairs/atherdiyrepairs.github.io/blob/main/docs/assets/img/3.png">
+                </p>
+                <p>
+                Now start by removing the botom as shwon in image, and then pulling the panel from the bottom to your side, and there will be a small plastic piece at the top which you have to look for just pull it up gentaly and wiggle the panel a bit and it will come out. And also, don't pull the panel so hard or it will get cracked. Also, there will be a wired connection behind that panel for the buzzer. Just remove the connector and take out the panel.</p>
+                <div class="side-by-side">
+                <img src="https://github.com/AtherDiyRepairs/atherdiyrepairs.github.io/blob/main/docs/assets/img/5.png">
+                <img src="https://github.com/AtherDiyRepairs/atherdiyrepairs.github.io/blob/main/docs/assets/img/4.png">
+                </div>
+            </div>
 
+            <div class="step">
+                <p><strong>Step 3:</strong> Now you have the panel opened, just unscrew 4 bolts from behind as shown in the image below to remove the charging flap, and then just remove those 2 plastic pieces.</p>
+                <div class="side-by-side">
+                <img src="https://github.com/AtherDiyRepairs/atherdiyrepairs.github.io/blob/main/docs/assets/img/6.png">
+                </div>
+            </div>
+
+            <div class="step">
+                <p><strong>Step 4:</strong> Now in that plastic piece there will be a spring mechanism as shwon in image, just remove it by pulling it. Now just spray a good amount of WD-40 on it, and clean it after a minute. Now just put the spring mechanism back to its place as it was before[ Make sure to reatch the spring proper with the retainer,check the image below] and re-attach the plastic pieces and flap (you can easily attach the flap by keeping the flap in the open position)</p>
+                <img src="https://github.com/AtherDiyRepairs/atherdiyrepairs.github.io/blob/main/docs/assets/img/7.png">
+            </div>
+            <div class="step">
+                <p><strong>Step 5:</strong> Now put everything back in reverse gently! And check yout chraging flap it will be working like a new again.</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
